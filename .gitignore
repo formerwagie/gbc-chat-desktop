@@ -1,0 +1,27 @@
+# Rust / Tauri build artifacts
+src-tauri/target/
+debug/
+release/
+
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Lock files (optional - some prefer to commit Cargo.lock for binaries)
+# Cargo.lock

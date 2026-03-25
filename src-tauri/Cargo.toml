@@ -1,0 +1,17 @@
+[package]
+name = "gbc-chat"
+version = "1.0.0"
+description = "gbc.chat desktop client"
+authors = ["GBC"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-opener = "2"
+tauri-plugin-updater = { version = "2", features = ["rustls-tls"] }
+open = "5"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
