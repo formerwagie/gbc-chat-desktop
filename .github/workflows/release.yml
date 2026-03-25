@@ -40,6 +40,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Create dist placeholder
+        run: mkdir dist && echo "<html></html>" > dist/index.html
+
       - name: Build Tauri app
         uses: tauri-apps/tauri-action@v0
         env:
