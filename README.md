@@ -47,6 +47,21 @@ src-tauri/
 
 The actual application (chat UI, backend, database) is served from `https://gbc.chat`. This wrapper just provides the native shell.
 
+## Code Signing Policy
+
+Free code signing provided by [SignPath.io](https://signpath.io), certificate by [SignPath Foundation](https://signpath.org).
+
+### Team Roles
+
+- **Authors & Reviewers:** [formerwagie](https://github.com/formerwagie)
+- **Approvers:** [formerwagie](https://github.com/formerwagie)
+
+### Privacy Policy
+
+This program loads [gbc.chat](https://gbc.chat) in a native webview. User data (messages, account info) is handled by the gbc.chat platform. The desktop wrapper itself does not collect, store, or transmit any additional user data beyond what the web application does.
+
+Full privacy policy: [https://gbc.chat/privacy](https://gbc.chat/privacy)
+
 ## License
 
 MIT — see [LICENSE](LICENSE)
